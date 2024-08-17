@@ -1,0 +1,92 @@
+[
+    {
+    "slug" : "cayden-quest",
+    "title": "Cayden Quest",
+    "front": [ "React", "Tailwind"] ,
+    "back" : ["SQL","NodeJS"],
+    "description": "Ce projet vise à adapter les livres \"dont vous êtes le héros\" en une application web interactive. Dans ces livres, le lecteur incarne le personnage principal de l'histoire. Après avoir rempli une \"fiche de personnage\", il commence au premier paragraphe et fait des choix qui le dirigent vers d'autres paragraphes, construisant ainsi son propre récit.Ce projet a été réalisé en groupe de cinq, durant ma troisième année de BUT Informatique.",
+    "image": "cayden.png",
+    "date": "IUT 2023-2024"
+  },
+  {
+    "slug" : "alizon",
+    "title": "Alizon",
+    "front": ["HTML","CSS","Javascript"] ,
+    "back" : ["SQL", "PHP"],
+    "description": "Alizon était le principal projet de notre deuxième année de BUT Informatique. L'objectif de ce projet était de concevoir, réaliser, présenter et améliorer un site de type Marketplace, depuis la prise des besoins des clients jusqu'à la présentation finale du produit.",
+    "image": "",
+    "date": "IUT 2022-2023"
+  },
+  {
+    "slug" : "yams",
+    "title": "Yams",
+    "front": [] ,
+    "back": ["C"],
+    "description": "Le projet du Jeu de Yams a été réalisé au cours du premier semestre du BUT Informatique à l'IUT de Lannion. L'objectif de ce projet était de coder un jeu de Yams en C, jouable à deux depuis le terminal de l'ordinateur.",
+    "image": "yams.png",
+    "date": "IUT 2021"
+  },
+  {
+    "slug" : "koh-frais",
+    "title": "Site Koh Frais",
+    "front": ["HTML","CSS"] ,
+    "back": [],
+    "description": "Dans le cadre d'un projet scolaire de 1e année de BUT Informatique nous avons du réaliser avec mon groupe un site internet pour un client fictif ( KOH FRAIS ). Nous avons ainsi du élaborer un site internet de l'expressions des besoins jusqu'au rendu final. Nous avons donc due partir d'une interview avec la client. De cette interview nous avons élaborer l'expression des besoins, une charte graphique, une maquette et le site coder en HTML/CSS.",
+    "image": "koh-frais.png",
+    "date": "IUT 2021"
+  },
+  {
+    "slug" : "exploitation-bdd",
+    "title": "Exploitation d'une base de données",
+    "front": [] ,
+    "back" : ["SQL"],
+    "description": "Ce projet a été fait par groupe de 2 et était principalement tournée vers la création d'une base de données et le peuplement de celle ci depuis un modèle. ",
+    "image": "",
+    "date": "IUT 2022-2023"
+  },
+  {
+    "slug" : "probleme-huit-reines",
+    "title": "Problème des huit reines",
+    "front": [] ,
+    "back" : ["Python"],
+    "description": "Ce projet était lié a la SAE 2.02 consistait a résolution d'un problème connu aux échecs. Nous devions par groupe de 2 ,  résoudre le problème des huit reines avec le langage de programmation  python. ",
+    "image": "huit-reines.jpg",
+    "date": "IUT 2023-2024"
+  },
+  {
+    "slug" : "neologia",
+    "title": "Projet NEOLOGIA",
+    "front": [] ,
+    "back" : ["Python"],
+    "description": "Le projet Neologia est un projet que j'ai effectue au cours de mon année de terminal dans la spécialité NSI. Ce projet consistait a créer des mots cohérent en fonction d'une langue choisie. Pour cela nous devions importer une langue et étudier les mots et suite de lettre de cette langue. Ce projet a été codé en python et m'a apporté de nombreuses connaissances dans le thème du machine learning et de la conception d'un algorithme en générale.",
+    "image": "",
+    "date": "Lycée 2020-2021"
+  },
+  {
+    "slug" : "album-photo",
+    "title": "Album photo",
+    "front": ["HTML", "CSS", "Javacript"] ,
+    "back" : ["PHP"],
+    "description": "Le projet de l'Album photo a été réalisé au cours de mon stage de 2e année de BUT Informatique. J'ai effectué ce stage dans l'entreprise Print Shop Créa à Auray, plus particulièrement dans la branche web de l'entreprise, Hola Web. L'objectif de ce stage était de développer, avec un collègue alternant, une application web permettant la création d'albums photo sur le site de Print Shop Créa. ",
+    "image": "album.png",
+    "date": "Stage 2023"
+  },
+  {
+    "slug" : "comparaison-algo",
+    "title": "Comparaison d'approches algorithmiques",
+    "front": [] ,
+    "back" : ["Python"],
+    "description": "Dans cette SAE 2.01 nous devions réaliser en language C différents algorithmes de tri afin de connaitre le plus adapté dans chaque situation.\n\nNous avons dans un premier temps due réaliser des tris simple avec différents type de tri que nous devions coder. Il y a avait par exemple le tri a bulle, le tri shaker ou encore le tri rapide. \n\nNous devions ensuite savoir les utiliser dans différents type de situation (beaucoup de valeurs a trier, trier des chaines de caractères...). Après ces différents tests nous devions ensuite réaliser des comparatif de ces algorithmes par rapport aux autres.",
+    "image": "",
+    "date": "IUT 2021-2022"
+  },
+  {
+    "slug" : "creapaysage",
+    "title": "Site Créa'paysage",
+    "front": ["HTML", "CSS", "Javacript"] ,
+    "back" : ["Wordpress", "PHP"],
+    "description": "Ce projet a été réalisé au cours de mon alternance chez Selltim en 2023-2024. C'était l'un de mes premiers projets en tant que développeur web au sein de l'entreprise. L'objectif était de reprendre le site qui avait été partiellement développé avant mon arrivée par un autre développeur. J'ai donc dû utiliser le code existant pour finaliser la maquette. Lors de ce projet, j'ai eu l'opportunité de travailler en étroite collaboration avec les clients de l'entreprise, notamment par mail et en personne, pour assurer leur formation.",
+    "image": "creapaysage.png",
+    "date": "Alternance  2023-2024"
+  }
+]

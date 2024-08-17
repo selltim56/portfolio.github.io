@@ -1,0 +1,139 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Polices Import */
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kalam:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viga&display=swap');
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.viga-regular {
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ----- Générale ------ */
+.container{
+    @apply mx-auto py-8 md:py-16 duration-300 px-4 max-w-[1400px];
+}
+
+/* ----- Header -----*/
+.parent[data-isOpen="true"] {
+    width: 400px;
+    height: 200px;
+}
+
+
+
+/* ----- Footer ------ */
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+#footer .air{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 1200px 150px;
+}
+ #footer .air.air1{
+    animation: wave 260s linear infinite;
+    z-index: 49;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+#footer .air.air2{
+    animation: wave2 180s linear infinite;
+    z-index: 49;
+    opacity: 0.5;
+    animation-delay: -10s;
+    bottom: 20px;
+}
+#footer .air.air3{
+    animation: wave 260s linear infinite;
+    z-index: 48;
+    opacity: 0.2;
+    animation-delay: -4s;
+    bottom: 25px;
+}
+#footer .air.air4{
+    animation: wave2 160s linear infinite;
+    z-index: 47;
+    animation-delay: -10s;
+    @apply bottom-[30px] opacity-70;
+}
+@keyframes wave{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 20000px;
+    }
+}
+@keyframes wave2{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: -20000px;
+    }
+}
+
+
+/* ----- Compétences ----- */
+.competences::-webkit-scrollbar{
+    @apply w-3 p-0;
+}
+
+.competences::-webkit-scrollbar-thumb{
+    @apply bg-green_primary rounded-xl duration-300  ;
+}
+
+.competences::-webkit-scrollbar-thumb:hover{
+    @apply bg-green_header ;
+}
+
+/* ----- Limitation lignes  ----- */
+
+.line_clamp_1{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+
+.line_clamp_3{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
